@@ -35,6 +35,8 @@ module.exports = () => {
       short_name: 'JATE',
       orientation: 'portrait',
       display: 'standalone',
+      inject: true,
+      fingerprints: false,
       start_url: '/',
       description: 'Simple text editor',
       publicPath: '/',
